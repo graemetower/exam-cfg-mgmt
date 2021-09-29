@@ -4,4 +4,4 @@ metadata:
   annotations:
     iam.gke.io/gcp-service-account: workload-identity-test@qwiklabs-gcp-00-1275ceb65e56.iam.gserviceaccount.com
   name: workload-identity-test
-  namespace: bucketaccess
+  namespace: default
