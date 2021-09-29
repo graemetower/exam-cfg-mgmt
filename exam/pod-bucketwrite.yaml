@@ -1,12 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: bucketwrite-pod1
+  name: bucketwrite-pod2
   labels:
     image-policy.k8s.io/break-glass: "true"
 spec:
   containers:
   - name: container-name
     image: gcr.io/cloud-builders/gsutil
-    stdin: true
-    tty: true
